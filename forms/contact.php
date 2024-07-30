@@ -1,4 +1,4 @@
-<form method="post" action="https://www.jotform.com/assign/242110643907450/242111048493046">
+<form method="post" action="https://form.jotform.com/form/242110643907450">
 
   <!-- <form method="post" action="https://forms.un-static.com/forms/424f38fe1ac8e4925b70c42942289cf677b605b0"> -->
 
@@ -22,7 +22,7 @@
   //   die( 'Unable to load the "PHP Email Form" Library!');
   // }
   
-  if( file_exists($php_email_form = 'https://www.jotform.com/assign/242110643907450/242111048493046')) {
+  if( file_exists($php_email_form = 'https://form.jotform.com/form/242110643907450')) {
     include( $php_email_form );
   } else {
     die( 'Unable to load the "PHP Email Form" Library!');
